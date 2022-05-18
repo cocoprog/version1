@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+  /* MEDIAS QUERIES */
+
+
+
+  /*MENU UNO ARRIBA ABAJO DEL OTRO PARA VERSION CELULAR ???*/
+
+  
+/*vista desktop */
+/*
+@media only screen and (min-width:1240px){
+	.encabezado{
+		font-size: 50px;
+		text-align: center;
+		color: blue;
+	}
+}
+*/
+
+
+/* vista entre desktop y mobile */
+/*
+@media only screen and (min-width:768px) and (max-width:1239px){
+	.gridContainer{
+	display: grid;
+	grid-template-areas: 
+	"header header"
+	"encabezado encabezado"
+	"textoInformativo imgTxtInformativo"
+	"footer footer";
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 100px 1fr auto 400px;
+	background-color: greenyellow;
+}
+*/
+
+
+/*vista mobile*/
+
+/*
+@media only screen and (min-width:0px) and (max-width:767px){
+	.gridContainer{
+	display: grid;
+	grid-template-areas: 
+	"header"
+	"encabezado"
+	"textoInformativo"
+	"imgTxtInformativo"
+	"footer";
+	grid-template-columns: 100%;
+	grid-template-rows: 100px 1fr auto 400px auto;
+	background-color: yellow;
+}
+*/
+
+
+
+
+
+
+
+ /* .gridS1 {
+   display: grid;
+   background-color: aqua;
+   grid-template-columns: 100px, 100px, 100px;
+   grid-template-rows: 50px, 50px, 50px;
+ } */
+
+ /* .gridS2 {
+  display: grid;
+  background-color: blue;
+  grid-template-columns: 100px, 100px, 100px;
+  grid-template-rows: 50px, 50px, 50px;
+} */
+
+
+
+ /***--------------------- ideas----------------------- */
+
+ /* menu a la derecha*/
+
+ .rowFlex {
+	display: flex; /* propiedad que permite aplicar flexbox sobre contenedor padre*/
+	flex-direction: row; /*elegimos orientación sobre eje X o Y -*/	
+	flex-wrap: nowrap; /* obligamos o no (a los items hijos), a adaptarse al ancho del contendor padre */
+	width: 100%;
+}
+
+/* dividir los articulos de venta en un section */
+
+.navFlex li {list-style-type: none;
+  padding: 20px;font-size: 20px; background-color: yellow;}
+  .navFlex li a {text-decoration: none;}
+  .navFlex__item1{order: 5;}
+  .navFlex__item2{order: -1;}
+  .navFlex__item3{order: -2;}
+  .navFlex__item4{order: 0;}
+  
+  
+  
+  .sectionFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 500px;
+    border: 1px solid black;
+    width: 100%;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
