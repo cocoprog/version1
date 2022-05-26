@@ -1,0 +1,38 @@
+/* test de comentarios*/
+
+//test de comentarios II//
+
+@import "variables";
+
+body {
+    background-color: aquamarine;
+
+    header {
+        background-color: bisque;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        nav {
+            font-weight: bold;
+            text-transform: uppercase;
+
+            li {
+                display: inline-block;
+            }
+
+            a {
+                text-decoration: none;
+                color: $color-texto;
+                margin: $margenes;
+                font-size: $tam-fuente;
+            }
+        }
+
+    }
+
+    h2 {
+        margin:$margenes;
+        color: $color-texto;
+    }
+}
