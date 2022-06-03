@@ -1,0 +1,21 @@
+/*MAPS*/
+
+
+$mapRedes:(facebook:green, instagram:red, twitter:violet);
+
+@each $redSocial, $colorRedSocial in $mapRedes {
+    .#{$redSocial} {
+        color: $colorRedSocial;
+    }
+}
+
+/*MAPS-GET*/
+
+$estilo:(color:darkgreen,tamFuente:25px);
+
+.pipo {
+    background-color: map-get($estilo,color);
+    font-size: map-get($estilo,tamFuente);
+    height: 150px;
+    width: 150px;
+}

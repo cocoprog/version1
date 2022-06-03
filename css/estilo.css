@@ -1,4 +1,41 @@
 /* test de comentarios*/
+/*MAPS*/
+.facebook {
+  color: green; }
+
+.instagram {
+  color: red; }
+
+.twitter {
+  color: violet; }
+
+/*MAPS-GET*/
+.pipo {
+  background-color: darkgreen;
+  font-size: 25px;
+  height: 150px;
+  width: 150px; }
+
+.primerEstilo, .segundoEstilo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center; }
+
+.segundoEstilo {
+  font-size: 55px; }
+
+/*LOS MIXIN PUEDEN SER CON PARAMETROS O SIN PARAMETROS*/
+/*MIXIN SIN PARAMETROS*/
+.parrafosConEstilo {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 5rem;
+  text-align: center; }
+
+/*MIXIN CON PARAMETROS*/
+.parrafosConHambre {
+  font-size: 25px;
+  text-align: left; }
+
 body {
   background-color: aquamarine; }
   body header {
