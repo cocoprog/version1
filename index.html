@@ -12,7 +12,7 @@
     <!-- BOOSTRAP -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="/css/estilos.css">
     <!-- FUENTE -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     
@@ -20,17 +20,7 @@
 <body class="gridBody">
     <header>
         <!-- <h1>ENIO Homapage</h1> -->
-        <img class="imgMarca"src="./img/marca.JPG" alt="">
-        <!-- ANTIGUO NAVBAR -->
-        <!-- <nav>
-            <ul class="ulClass1">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/seccion1.html">Botas y Botinetas</a></li>
-                <li><a href="pages/seccion2.html">Mocasines y Oxfords</a></li>
-                <li><a href="pages/seccion3.html">Otros</a></li>
-                <li><a href="pages/seccion4.html">Contacto</a></li>
-            </ul>
-        </nav> -->
+        <img class="imgMarca"src="./img/marca.JPG" alt="MARCA ENIO">      
         <!-- NUEVO NAVBAR -->
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
@@ -44,16 +34,16 @@
                     <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../pages/seccion1.html">Botas y Botinetas</a>
+                    <a class="nav-link" href="/pages/seccion1.html">Botas y Botinetas</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../pages/seccion2.html">Mocasines y Oxfords</a>
+                    <a class="nav-link" href="/pages/seccion2.html">Mocasines y Oxfords</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../pages/seccion3.html">Otros</a>
+                    <a class="nav-link" href="/pages/seccion3.html">Otros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../pages/seccion4.html">Contacto</a>
+                    <a class="nav-link" href="/pages/seccion4.html">Contacto</a>
                   </li>
                   <!-- <li class="nav-item">
                     <a class="nav-link disabled">Disabled</a>
@@ -66,40 +56,67 @@
     </header>
     <main>
         <section class="seccion3A">
-        <p class="border border-danger mt-5" style="color: aliceblue;">Como pongo un borde en el header inferior?</p>
-        <div class="testFlex2">
-            <h3>Imagenes en movimiento promocionando las distintas secciones</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/wrAoswsvHwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="testFlex2">
+            <h3>secciones</h3>
+            </div>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/img/byb1.JPG" class="d-block w-100" alt="CALZADO">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/img/myo2.JPG" class="d-block w-100" alt="CALZADO">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/o3.JPG" class="d-block w-100" alt="CALZADO">
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
         </section>
-        <!-- ESPACIO -->
         <h2>--------------</h2>        
         <section class="seccion3B">
             <div>
                 <p>3 imagenes en orden horizontal</p>
-                <img class="img1" src="./img/cuero.JPG" alt="" width="100%">
-                <!-- <img src="./img/cuero.JPG" alt="">
-                <img src="./img/cuero.JPG" alt=""> -->
+                <img class="img1" src="./img/cuero.JPG" alt="CUERO ARGENTINO" width="100%">
             <p class="fuenteParrafo1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, earum.</p>
             </div>
-        </section> 
-        <!-- ESPACIO -->
+        </section>
         <h2>--------------</h2>              
         <section class="seccion3C">            
             <div id="seccion3">                
             <p>3 IMAGENES CON INFORMACION IMPORTANTE</p>
-                <img class="img2" src="./img/cuero.JPG" alt="" width="100%">
-                <!-- <img src="./img/cuero.JPG" alt="">
-                <img src="./img/cuero.JPG" alt=""> -->    
+                <img class="img2" src="./img/cuero.JPG" alt="CUERO ARGENTINO" width="100%">
+                <section class="gridPadre2">
+                  <div class="item">
+                    <img src="/img/p2.JPG" alt="CUOTAS SIN INTERES" width="100%">
+                    <p>texto informativo1</p>
+                  </div>
+                  <div class="item">
+                    <img src="/img/p3.JPG" alt="PROMOCIONES" width="100%">
+                    <p>texto informativo2</p>
+                  </div>
+                  <div class="item">
+                    <img src="/img/p4.JPG" alt="ENVIO" width="100%">
+                    <p>texto informativo3</p>
+                  </div>                  
+                </section>
         </section>        
     </main>
     <footer>
-        <div class="gradFooter cajaFooter">            
+        <div>            
             <h2 >Contacto</h2>
             <h3>Como saber mi talle</h3>
             <h3>Informacion de envios</h3>
         </div>
-        <img class="imgMarca" src="./img/marca.JPG" alt="">        
+        <img class="imgMarca" src="./img/marca.JPG" alt="MARCA ENIO" width="100%">        
     </footer>
     <!-- LINK JS X BOOSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>        
