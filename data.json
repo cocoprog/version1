@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nombre": "Bota",
+    "precio": 9500,
+    "foto": "o6.JPG"
+  },
+  {
+    "id": 2,
+    "nombre": "Botineta",
+    "precio": 12000,
+    "foto": "byb1.JPG"
+  },
+  {
+    "id": 3,
+    "nombre": "Mocasin",
+    "precio": 7500,
+    "foto": "byb2.JPG"
+  },
+  {
+    "id": 4,
+    "nombre": "Oxford",
+    "precio": 14300,
+    "foto": "byb11.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Zapatilla",
+    "precio": 19900,
+    "foto": "myo1.JPG"
+  }
+]
