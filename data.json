@@ -28,5 +28,12 @@
     "nombre": "Zapatilla",
     "precio": 19900,
     "foto": "myo1.JPG"
+  },
+  {
+    "id": 6,
+    "nombre": "test",
+    "precio": 19900,
+    "foto": "myo22.jpg"
   }
+
 ]
